@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarChapter4">
         <activity
+            android:name=".PertemuanPertama.navcomponent.NavComponetActivity"
+            android:exported="false" />
+        <activity
             android:name=".PertemuanPertama.DashboarActivity"
             android:exported="false"
             android:label="Dashboard" />

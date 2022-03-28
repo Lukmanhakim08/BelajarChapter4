@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.belajarchapter4.PertemuanPertama.PertamaActivity
+import com.example.belajarchapter4.PertemuanPertama.navcomponent.NavComponetActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +15,11 @@ class MainActivity : AppCompatActivity() {
         btn_pertama.setOnClickListener {
             val intent = Intent(this, PertamaActivity::class.java)
             startActivity(intent)
+        }
+
+        btn_navi.setOnClickListener {
+            val nav = Intent(this, NavComponetActivity::class.java)
+            startActivity(nav)
         }
     }
 }
