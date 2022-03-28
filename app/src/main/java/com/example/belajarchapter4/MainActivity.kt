@@ -3,6 +3,7 @@ package com.example.belajarchapter4
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.belajarchapter4.PertemuanPertama.MiniChalangeSatu.PenampungActivity
 import com.example.belajarchapter4.PertemuanPertama.PertamaActivity
 import com.example.belajarchapter4.PertemuanPertama.navcomponent.NavComponetActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -20,6 +21,11 @@ class MainActivity : AppCompatActivity() {
         btn_navi.setOnClickListener {
             val nav = Intent(this, NavComponetActivity::class.java)
             startActivity(nav)
+        }
+
+        btn_latihannavi.setOnClickListener {
+            val latihan = Intent(this, PenampungActivity::class.java)
+            startActivity(latihan)
         }
     }
 }
