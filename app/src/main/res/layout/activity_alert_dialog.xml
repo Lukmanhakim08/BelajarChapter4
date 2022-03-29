@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".PertemuanKedua.AlertDialogActivity">
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_alertsatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Standar"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_alertdua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Standar widt Action"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_alerttiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Action Dismiss"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_alertempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Custum"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_alertlima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Fragment"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_latihanalert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Satu"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/get_nama"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_height="wrap_content"/>-->
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_latihankedua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Dua"/>
+
+
+</LinearLayout>

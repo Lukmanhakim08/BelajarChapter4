@@ -26,7 +26,8 @@ class SnackbarFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         btn_backkembali.setOnClickListener {
             Snackbar.make(it, "Kembali Ke Home", Snackbar.LENGTH_INDEFINITE)
-                .setAction("Home"){Toast.makeText(requireContext(),"Selamat Datang Di halaman Home", Toast.LENGTH_LONG).show()
+                .setAction("Home"){
+                    Toast.makeText(requireContext(),"Selamat Datang Di halaman Home", Toast.LENGTH_LONG).show()
                     Navigation.findNavController(view).navigate(R.id.homeFragment)
                 }
                 .show()

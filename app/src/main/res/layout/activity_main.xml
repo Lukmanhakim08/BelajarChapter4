@@ -26,5 +26,12 @@
         android:id="@+id/btn_latihannavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Latihan Navigation"/>
+        android:text="Latihan Minichall Navigation"/>
+
+
+    <Button
+        android:id="@+id/btn_kedua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pertemuan Kedua"/>
 </LinearLayout>
