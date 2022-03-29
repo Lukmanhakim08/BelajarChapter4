@@ -64,4 +64,13 @@
         android:layout_gravity="center"
         android:text="Custem Fragment"/>
 
+    <TextView
+        android:id="@+id/text_pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
 </LinearLayout>
