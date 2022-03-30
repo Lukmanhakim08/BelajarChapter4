@@ -19,31 +19,33 @@ class KasirActivity : AppCompatActivity() {
         setContentView(R.layout.activity_kasir)
 
         btn_custemlayout.setOnClickListener {
-
             val nmbarang = edt_nmbarang.text.toString()
             val jmbarang = edt_jumlah.text.toString().toInt()
             val hrgbarang = edt_hargabrng.text.toString().toInt()
             val total = jmbarang * hrgbarang
-            val custom = LayoutInflater.from(this).inflate(R.layout.custom_kasir, null, false)
             val ab = AlertDialog.Builder(this)
-                .setView(custom)
                 .create()
-
+                ab.setTitle("Total Belanja")
+                ab.setMessage("= $total")
+            val custom = LayoutInflater.from(this).inflate(R.layout.custom_kasir, null, false)
+                ab.setView(custom)
+                ab.create()
             custom.btn_bayar.setOnClickListener {
                 val bayar = custom.edt_bayar.text.toString().toInt()
-                txt_total.append("$total")
-                val kembalian = total - bayar
+                val kembalian = bayar-total
+                out_barang.text = "Nama Barang : "+nmbarang
+                out_jumlah.text = "Jumlah Barang : " + jmbarang.toString()
+                out_harga.text = "Harga barang : "+hrgbarang.toString()
+                out_total.text = "Total : "+total.toString()
+                out_kembalian.text = "Kembalian : "+kembalian.toString()
+
                 ab.dismiss()
             }
             ab.show()
-            text_pesan.text = nmbarang +
-                    jmbarang +
-                    hrgbarang +
-                    total
         }
 
         btn_custemfragment.setOnClickListener {
-            AlertDialogFragment().show(supportFragmentManager,"abc")
+            AlertDialogFragment().show(supportFragmentManager,"Fragment")
         }
 
 

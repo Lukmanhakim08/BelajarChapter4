@@ -10,32 +10,90 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total Belanja"
+        android:text="STRUK BELANJA"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
         android:textSize="20dp"
-        android:textStyle="bold"/>
-
-
-    <TextView
-        android:id="@+id/txt_total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"/>
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
 
     <EditText
-        android:id="@+id/edt_bayar"
+        android:id="@+id/edt_nmbarang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Bayar"
+        android:hint="Nama barang"
         android:textColor="@color/black"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <EditText
+        android:id="@+id/edt_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="jumlah Barang"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <EditText
+        android:id="@+id/edt_hargabrng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="jumlah Barang"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
 
     <Button
-        android:id="@+id/btn_bayar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_prosesfragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bayar"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="Prosest Fragment"/>
 
+    <TextView
+        android:id="@+id/out_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/out_jumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/out_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/out_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/out_kembalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
 </LinearLayout>
