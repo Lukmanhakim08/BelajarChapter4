@@ -34,4 +34,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pertemuan Kedua"/>
+
+    <Button
+        android:id="@+id/btn_ketiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pertemuan Ketiga"/>
 </LinearLayout>

@@ -7,11 +7,15 @@
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_alert_fragment.xml" value="0.13179347826086957" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_kasir.xml" value="0.13179347826086957" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_latihan_dua.xml" value="0.13179347826086957" />
+        <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_latihan_recy.xml" value="0.20416666666666666" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_latihan_satu.xml" value="0.20416666666666666" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_main.xml" value="0.13179347826086957" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_nav_componet.xml" value="0.13179347826086957" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_penampung.xml" value="0.19010416666666666" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_pertama.xml" value="0.13179347826086957" />
+        <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_pertemuan_ketiga.xml" value="0.20416666666666666" />
+        <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_recycler_view.xml" value="0.13179347826086957" />
+        <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/activity_tampil.xml" value="0.13179347826086957" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/custom_kasir.xml" value="0.1" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/custum_dialog.xml" value="0.1" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/fragment_dialog.xml" value="0.13179347826086957" />
@@ -21,6 +25,8 @@
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/fragment_scr_dua.xml" value="0.13179347826086957" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/fragment_scr_satu.xml" value="0.13179347826086957" />
         <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/fragment_snackbar.xml" value="0.19010416666666666" />
+        <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/item_recycler.xml" value="0.16" />
+        <entry key="..\:/Binar/Materi/Chapter 4/BelajarCahpter4/app/src/main/res/layout/item_recytugas.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

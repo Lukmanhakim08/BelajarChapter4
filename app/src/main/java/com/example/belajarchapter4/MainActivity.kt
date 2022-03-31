@@ -3,8 +3,8 @@ package com.example.belajarchapter4
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.app.AlertDialog
 import com.example.belajarchapter4.PertemuanKedua.AlertDialogActivity
+import com.example.belajarchapter4.PertemuanKetiga.PertemuanKetigaViewActivity
 import com.example.belajarchapter4.PertemuanPertama.MiniChalangeSatu.PenampungActivity
 import com.example.belajarchapter4.PertemuanPertama.PertamaActivity
 import com.example.belajarchapter4.PertemuanPertama.navcomponent.NavComponetActivity
@@ -33,6 +33,11 @@ class MainActivity : AppCompatActivity() {
         btn_kedua.setOnClickListener {
             val pertemuan = Intent(this, AlertDialogActivity::class.java)
             startActivity(pertemuan)
+        }
+
+        btn_ketiga.setOnClickListener {
+            val tiga = Intent(this, PertemuanKetigaViewActivity::class.java)
+            startActivity(tiga)
         }
 
     }
