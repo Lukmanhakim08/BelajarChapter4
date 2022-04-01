@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.belajarchapter4.PertemuanKedua.AlertDialogActivity
+import com.example.belajarchapter4.PertemuanKeempat.PertemuanKeempatActivity
 import com.example.belajarchapter4.PertemuanKetiga.PertemuanKetigaViewActivity
 import com.example.belajarchapter4.PertemuanPertama.MiniChalangeSatu.PenampungActivity
 import com.example.belajarchapter4.PertemuanPertama.PertamaActivity
@@ -38,6 +39,11 @@ class MainActivity : AppCompatActivity() {
         btn_ketiga.setOnClickListener {
             val tiga = Intent(this, PertemuanKetigaViewActivity::class.java)
             startActivity(tiga)
+        }
+
+        btn_keempat.setOnClickListener {
+            val empat = Intent(this, PertemuanKeempatActivity::class.java)
+            startActivity(empat)
         }
 
     }
