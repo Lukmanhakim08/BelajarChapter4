@@ -23,6 +23,7 @@
             android:textColor="@color/black"/>
 
         <EditText
+            android:id="@+id/edt_idnam"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="65dp"
@@ -45,6 +46,7 @@
             android:textColor="@color/black"/>
 
         <EditText
+            android:id="@+id/edt_namasa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -111,9 +113,9 @@
 
         <Button
             android:id="@+id/btn_save"
-            android:layout_alignParentBottom="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:text="Save" />
 
         <Button

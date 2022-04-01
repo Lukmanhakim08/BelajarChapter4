@@ -18,5 +18,10 @@ class PertemuanKeempatActivity : AppCompatActivity() {
             val contoh = Intent(this, ContohSharedActivity::class.java)
             startActivity(contoh)
         }
+
+        btn_sf.setOnClickListener {
+            val contoh = Intent(this, MainSFActivity::class.java)
+            startActivity(contoh)
+        }
     }
 }
