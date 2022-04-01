@@ -43,6 +43,7 @@ class DashboardActivity : AppCompatActivity() {
             custumdialog.btn_tidak.setOnClickListener {
                 startActivity(Intent(this, DashboardActivity::class.java))
                 Toast.makeText(this, "Tidak jadi logout", Toast.LENGTH_LONG).show()
+                finish()
             }
             ab.show()
         }
