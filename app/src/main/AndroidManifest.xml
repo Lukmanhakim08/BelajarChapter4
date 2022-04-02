@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarChapter4">
         <activity
-            android:name=".PertemuanKeempat.TugasPertemuanKeempat.DashboardActivity"
-            android:label="Dashboard"
+            android:name=".PertemuanKeempat.TugasPertemuanKeempat.SplashScreen"
             android:exported="false" />
         <activity
+            android:name=".PertemuanKeempat.TugasPertemuanKeempat.DashboardActivity"
+            android:exported="false"
+            android:label="Dashboard" />
+        <activity
             android:name=".PertemuanKeempat.TugasPertemuanKeempat.HalLoginActivity"
-            android:label="Login"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Login" />
         <activity
             android:name=".PertemuanKeempat.MainSF2Activity"
             android:exported="false" />

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.belajarchapter4.PertemuanKeempat.ContohSharedP.ContohSharedActivity
 import com.example.belajarchapter4.PertemuanKeempat.TugasPertemuanKeempat.HalLoginActivity
+import com.example.belajarchapter4.PertemuanKeempat.TugasPertemuanKeempat.SplashScreen
 import com.example.belajarchapter4.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_pertemuan_keempat.*
@@ -26,7 +27,7 @@ class PertemuanKeempatActivity : AppCompatActivity() {
         }
 
         btn_tugaskeempat.setOnClickListener {
-            val tugas = Intent(this, HalLoginActivity::class.java)
+            val tugas = Intent(this, SplashScreen::class.java)
             startActivity(tugas)
         }
     }
