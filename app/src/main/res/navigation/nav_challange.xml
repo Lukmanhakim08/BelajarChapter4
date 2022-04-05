@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_challange"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/loginChallangeFragment"
+        android:name="com.example.belajarchapter4.PertemuanKelima.ContohChallange.LoginChallangeFragment"
+        android:label="fragment_login_challange"
+        tools:layout="@layout/fragment_login_challange" >
+        <action
+            android:id="@+id/login_toregister"
+            app:destination="@id/registerchallangeFragment" />
+        <action
+            android:id="@+id/login_tohome"
+            app:destination="@id/homeChallangeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerchallangeFragment"
+        android:name="com.example.belajarchapter4.PertemuanKelima.ContohChallange.RegisterchallangeFragment"
+        android:label="fragment_registerchallange"
+        tools:layout="@layout/fragment_registerchallange" >
+        <action
+            android:id="@+id/register_tologin"
+            app:destination="@id/loginChallangeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeChallangeFragment"
+        android:name="com.example.belajarchapter4.PertemuanKelima.ContohChallange.HomeChallangeFragment"
+        android:label="fragment_home_challange"
+        tools:layout="@layout/fragment_home_challange" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.belajarchapter4.PertemuanKelima.ContohChallange.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/splash_to_login"
+            app:destination="@id/loginChallangeFragment" />
+        <action
+            android:id="@+id/splash_to_home"
+            app:destination="@id/homeChallangeFragment" />
+    </fragment>
+</navigation>

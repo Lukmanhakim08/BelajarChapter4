@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarChapter4">
         <activity
+            android:name=".PetemuanKeenam.PertemuanKeenamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PertemuanKelima.ContohChallange.ContohChallangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PertemuanKelima.ContohChallange.SplashChallangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PertemuanKelima.PertemuanKelimaActivity"
+            android:exported="false" />
+        <activity
             android:name=".PertemuanKeempat.TugasPertemuanKeempat.SplashScreen"
             android:exported="false" />
         <activity

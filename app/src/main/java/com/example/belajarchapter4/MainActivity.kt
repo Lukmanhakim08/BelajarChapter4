@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.belajarchapter4.PertemuanKedua.AlertDialogActivity
 import com.example.belajarchapter4.PertemuanKeempat.PertemuanKeempatActivity
+import com.example.belajarchapter4.PertemuanKelima.PertemuanKelimaActivity
 import com.example.belajarchapter4.PertemuanKetiga.PertemuanKetigaViewActivity
 import com.example.belajarchapter4.PertemuanPertama.MiniChalangeSatu.PenampungActivity
 import com.example.belajarchapter4.PertemuanPertama.PertamaActivity
 import com.example.belajarchapter4.PertemuanPertama.navcomponent.NavComponetActivity
+import com.example.belajarchapter4.PetemuanKeenam.PertemuanKeenamActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -46,5 +48,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(empat)
         }
 
+        btn_kelima.setOnClickListener {
+            val lima = Intent(this, PertemuanKelimaActivity::class.java)
+            startActivity(lima)
+        }
+
+        btn_keenam.setOnClickListener {
+            val enam = Intent(this, PertemuanKeenamActivity::class.java)
+            startActivity(enam)
+        }
     }
 }

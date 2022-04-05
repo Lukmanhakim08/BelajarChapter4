@@ -47,4 +47,17 @@
         android:layout_height="wrap_content"
         android:text="Pertemuan Keempat"/>
 
+
+    <Button
+        android:id="@+id/btn_kelima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pertemuan Kelima"/>
+
+    <Button
+        android:id="@+id/btn_keenam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pertemuan Keenam"/>
+
 </LinearLayout>
